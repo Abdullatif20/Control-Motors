@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset = "utf-8">
+   <title>Control Arms</title>
+   <link rel="stylesheet" href="Style.css">
+   </head>
+   <body>
+   <form method="POST" action="insert.php">
+    <div class="slider">
+	<h1>Control Motors</h1>
+	
+        <div class ="slider1">
+		Motor1<input type="range" name = "Motor1" min="0" max="180" value="0" oninput="Motor11.innerText = this.value">
+        <p id="Motor11">0</p></div>
+		
+
+		<div class ="slider2">
+		Motor2<input type="range" name = "Motor2" min="0" max="180" value="0" oninput="Motor22.innerText = this.value">
+        <p id="Motor22">0</p></div>
+		
+
+		<div class ="slider3">
+		Motor3<input type="range" name = "Motor3" min="0" max="180" value="0" oninput="Motor33.innerText = this.value">
+        <p id="Motor33">0</p></div>
+		
+
+		<div class ="slider4">
+		Motor4<input type="range" name = "Motor4" min="0" max="180" value="0" oninput="Motor44.innerText = this.value">
+        <p id="Motor44">0</p></div>
+		
+
+		<div class ="slider5">
+		Motor5<input type="range" name = "Motor5" min="0" max="180" value="0" oninput="Motor55.innerText = this.value">
+        <p id="Motor55">0</p></div>
+		
+
+		<div class ="slider6">
+		Motor6<input type="range" name = "Motor6" min="0" max="180" value="0" oninput="Motor66.innerText = this.value">
+        <p id="Motor66">0</p></div>
+		
+		
+		  <input type = "submit" class="button" value ="SAVE"></form>
+		   <form method="POST" action="result.php">
+		  <input type = "submit" class="button2" value ="START">
+		  
+    </div></form>
+
+
+   </body>
+</html>
